@@ -47,10 +47,16 @@ You are required to submit the following for review:
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 
+
+- - -
+
+
+
 # What have I done?
 
 ## Semantics
 
+```
 Replaced meaningless div tags with meaningful semantic tags, such as:
 
  * div class="header" to header tag
@@ -60,16 +66,23 @@ Replaced meaningless div tags with meaningful semantic tags, such as:
  * aside tag
 
  * div class="footer" to footer tag
+```
 
  ## alt attributes for images
 
+```
  For all the images, added alt attributes that will replace the image when image is not available for display.
+```
 
  ## Title
 
+```
  changed the title from "website" to "Horiseon Social Solution Services"
+```
 
  ## Stylesheet
 
+```
  Fixed the stylesheet so that it will correspond to the changes made to the html document. For example, by changing <div class="header"> to <header>,
  all ".header { }" in stylesheet must be fixed to "header { }".
+```
