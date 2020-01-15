@@ -1,10 +1,7 @@
 # homework-1
 UCLA Bootcamp FSF FT Jan 2020 Homework 1
 
-
-Assignment: 
-
-# 01 HTML CSS Git: Code Refactor
+# Assignment: 01 HTML CSS Git: Code Refactor
 
 One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
 
@@ -48,3 +45,31 @@ You are required to submit the following for review:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+# What have I done?
+
+## Semantics
+
+Replaced meaningless div tags with meaningful semantic tags, such as:
+
+ * div class="header" to header tag
+
+ * section tag
+
+ * aside tag
+
+ * div class="footer" to footer tag
+
+ ## alt attributes for images
+
+ For all the images, added alt attributes that will replace the image when image is not available for display.
+
+ ## Title
+
+ changed the title from "website" to "Horiseon Social Solution Services"
+
+ ## Stylesheet
+
+ Fixed the stylesheet so that it will correspond to the changes made to the html document. For example, by changing <div class="header"> to <header>,
+ all ".header { }" in stylesheet must be fixed to "header { }".
